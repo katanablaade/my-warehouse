@@ -31,71 +31,6 @@
   padding-right: 67px;
   white-space: nowrap;
 }
-.todo-list__item {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  display: flex;
-  align-items: center;
-  color: rgb(255, 255, 255);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-.todo-list__item:last-child {
-  border-bottom: 0;
-}
-
-.todo-list__item-number {
-  color: rgb(255, 255, 255);
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19px;
-  padding: 20px 12px;
-  width: 47px;
-  text-align: center;
-}
-.todo-list__item-img {
-  margin-left: 9px;
-  width: 40px;
-  height: 40px;
-}
-.todo-list__item-user {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-.todo-list__item-name {
-  color: rgb(255, 255, 255);
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19px;
-}
-.todo-list__item-mail {
-  color: rgba(255, 255, 255, 0.4);
-  font-family: Inter;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 15px;
-}
-.todo-list__item-count {
-  color: rgb(255, 255, 255);
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19px;
-  padding-left: 12px;
-  padding-right: 146px;
-}
-.todo-list__item-wrapper {
-  margin-left: 16px;
-  display: flex;
-  flex-direction: column;
-}
-@media (max-width: 850px) {
-  .todo-list__item-img {
-    margin-left: 14px;
-  }
-}
 
 @media (max-width: 500px) {
   .todo-table {
@@ -106,30 +41,6 @@
     font-size: 8px;
     line-height: 10px;
   }
-  .todo-list__item-count {
-    padding-right: 40px;
-    font-size: 12px;
-    line-height: 15px;
-  }
-  .todo-list__item {
-    padding: 0;
-  }
-  .todo-table__header-number {
-    padding: 6.5px 14px;
-  }
-  .todo-list__item-name {
-    font-size: 12px;
-    line-height: 15px;
-  }
-  .todo-list__item-number {
-    padding: 12px 8px;
-    width: 44px;
-    font-size: 12px;
-    line-height: 15px;
-  }
-  .todo-list__item-wrapper {
-    margin-left: 10px;
-  }
   .todo-table__header-number {
     font-size: 9px;
   }
@@ -137,19 +48,5 @@
     padding: 9.5px 0 11.5px 15px;
     font-size: 8px;
     line-height: 10px;
-  }
-  .todo-list__item-mail {
-    margin-top: 4px;
-    font-size: 10px;
-    line-height: 12px;
-  }
-  .todo-list__item-user {
-    margin-top: 12px;
-    margin-bottom: 12px;
-  }
-  .todo-list__item-img {
-    margin-left: 9px;
-    width: 28px;
-    height: 28px;
   }
 }
